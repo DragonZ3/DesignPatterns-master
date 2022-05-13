@@ -10,7 +10,7 @@ import java.io.*;
  **/
 public class SerializableTest {
     public static void main(String[] args) throws Exception {
-//        serializeFlyPig();
+        serializeFlyPig();
         FlyPig flyPig = deserializeFlyPig();
         System.out.println(flyPig.toString());
         String s1="1212";
